@@ -1,6 +1,76 @@
 body {
-    font-family: "Roboto";
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.333;
     letter-spacing: 2%;
+    background-color: #fff;
+    color: #434455;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+    color: #2e2f42;
+}
+ul .link:hover, .link:focus {
+    color: #4d5ae5;
+}
+
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    line-height: 1.166;
+    text-transform: uppercase;
+}
+.page-logo .logo {
+    color: #4d5ae5;
+}
+.studio:active {
+    color: #4d5ae5;
+    text-decoration: underline;
+}
+.page-nav ul {
+    font-weight: 500;
+}
+
+.hero {
+    background-color: #2e2f42;
+}
+.page-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.071;
+    color: #fff;
+}
+.order-btn {
+    background-color: #4d5ae5;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 4%;
+    font-weight: 500;
+}
+.order-btn:hover {
+    background-color: #404bbf;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+.title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.page-footer {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+}
+.logo-second-part {
+    color: #f4f4fd;
 }
